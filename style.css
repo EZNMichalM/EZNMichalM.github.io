@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+  background: #D8A25E;
+  color: white;
+}
+
+.i{
+  text-decoration-line:underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body{
+  font-size: large;
+}
+
+.side {
+  flex: 5%;
+  background-color: #FEECB3;
+  padding: 20px;
+}
+
+img{
+  text-align: center;
+}
+
+.main {
+  flex: 50%;
+  background-color: white;
+  padding: 100px;
+}
+
+@media screen and (max-width: 700px) {.row, .nav {
+    flex-direction: column;}}
